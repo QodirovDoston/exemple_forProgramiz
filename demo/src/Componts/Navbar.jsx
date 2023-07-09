@@ -8,7 +8,7 @@ export default function Navbar() {
       <span className="text-white">qodirovdoston806</span>
       <h1 className="text-white">Asad sila eplab bo`lmayati uji</h1>
       <h3>Asadbek uchun</h3>
-      <p>tortishmanglar Doston aka katta </p>
+      <p>tortishmanglar Doston baribir aka katta </p>
     </div>
   )
 }
