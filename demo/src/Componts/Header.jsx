@@ -1,6 +1,10 @@
 
 export default function Header() {
   return (
-    <div>Header</div>
+   <header>
+    <div className="container">
+      ``
+    </div>
+   </header>
   )
 }
