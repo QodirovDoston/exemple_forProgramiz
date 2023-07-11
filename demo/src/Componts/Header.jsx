@@ -3,8 +3,8 @@ export default function Header() {
   return (
     <header>
       <div className="w-[1290px] mx-auto">
-        <div className="flex justify-between items-center">
-          <div className="w-[35%] ">
+        <div className="sm:flex grid flex-wrap justify-between items-center">
+          <div className="w-[35%]">
             <h1 className="text-white font-bold text-52px leading-15">
               The World's Best Luxury Car Deals
             </h1>
@@ -31,8 +31,8 @@ export default function Header() {
             </div>
           </div>
 
-          <div className="w-[45%] bg-gray-900 h-500px">
-            <img src={headerRightImg} alt="" className="absolute w-[60%] right-31  bottom-10 " />
+          <div className="w-[45%] bg-gray-900 h-500px sm:order-last order-first ">
+            <img src={headerRightImg} alt="" className=" w-[100%] absolute sm:w-[55%] right-31  sm:bottom-10 " />
           </div>
 
         </div>
