@@ -10,9 +10,10 @@ export default function Navbar() {
 
   ]
   return (
-    <div className="container mx-auto py-[10px] sm:px-[30px] px-[10px]">
-      <div className='mt-[20px] flex items-center'>
+    <div className="w-[1290px] mx-auto">
+      <div className='mt-[20px] flex justify-between items-center mb-18'>
         <img src={img} alt="" className='mr-[400px]'/>
+        <div className='flex items-center'>
        <ul className='flex gap-[40px]'>
        {
           nav.map(link => <li key={link.name} className='text-current '>
@@ -29,7 +30,8 @@ export default function Navbar() {
           </li>)
         }
        </ul>
-        <button className='text-white ml-[72px] border-0 bg-[#EE8313] py-[12px] px-[24px]'>Manage Booking</button>
+        <button className='text-white ml-[72px] border-0 bg-[#EE8313] py-[12px] px-[24px] duration'>Manage Booking</button>
+        </div>
       </div>
     </div>
   )
