@@ -2,8 +2,8 @@ import headerRightImg from "../assets/img/carImg.png"
 export default function Header() {
   return (
     <header>
-      <div className="container mx-auto py-[10px] sm:px-[30px] px-[10px] flex justify-between items-center">
-
+      <div className="w-[1290px] mx-auto">
+<div className="flex justify-between items-center">
         <div className="w-[35%] ">
           <h1 className="text-white font-bold text-52px leading-15">
             The World's Best Luxury Car Deals
@@ -32,8 +32,10 @@ export default function Header() {
         </div>
 
         <div className="w-[45%] bg-gray-900 h-500px">
-    <img src={headerRightImg} alt="" className="absolute w-[910px] right-8  bottom-10 " />
+    <img src={headerRightImg} alt="" className="absolute w-[60%] right-31  bottom-10 " />
         </div>
+
+</div>
       </div>
     </header>
   )
