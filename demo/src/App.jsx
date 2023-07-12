@@ -1,5 +1,6 @@
 import Header from './Componts/Header'
 import Navbar from './Componts/Navbar'
+import Section1 from './Componts/section1'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navbar/>
       <Header/>
+      <Section1 />
     </>
   )
 }
