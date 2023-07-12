@@ -12,8 +12,8 @@ export default function Header() {
               HKinvestor can provide rentals of the most exclusive cars like Ferrari and Lamborghini.
             </p>
             <div className="flex items-center gap-15 mt-15">
-              <button className="w-114px h-48px bg-yellow-500 text-white font-bold hover:bg-transparent hover:text-yellow-500 border-2 border-yellow-500">Buy Now</button>
-              <button className="w-200px h-48px bg-transparent text-yellow-500 font-bold hover:bg-yellow-500 hover:text-white border-2 border-yellow-500">Video Introduction</button>
+              <button className="w-114px h-48px bg-yellow-500 text-white font-bold hover:bg-transparent hover:text-yellow-500 hover:duration-1000 duration-1000 border-2 border-yellow-500">Buy Now</button>
+              <button className="w-200px h-48px bg-transparent text-yellow-500 font-bold hover:shadow-lg hover:shadow-yellow-500 hover:duration-1000 duration-1000  border-2 border-yellow-500">Video Introduction</button>
             </div>
             <div className="flex items-center gap-15 mt-10">
               <div className="flex items-center gap-3">
