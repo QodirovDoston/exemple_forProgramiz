@@ -2,11 +2,11 @@ import headerRightImg from "../assets/img/carImg.png"
 export default function Header() {
   return (
     <header>
-      <div className="w-[1290px] mx-auto">
+      <div className="w-[1200px] mx-auto">
         <div className="sm:flex grid flex-wrap justify-between items-center">
           <div className="w-[35%]">
             <h1 className="text-white font-bold text-52px leading-15">
-              The World's Best Luxury Car Deals
+              The World`s Best Luxury Car Deals
             </h1>
             <p className="text-gray-400 font-base text-xl mt-10">
               HKinvestor can provide rentals of the most exclusive cars like Ferrari and Lamborghini.

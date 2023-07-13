@@ -11,21 +11,21 @@ function App() {
   return (
     <>
 
-      <Navbar />
+     {/* <Navbar />
       <Header />
-      <Section1 />
-      <Section3 />
-      <Navbar />
+      <Section1 /> */}
       {/* <Header />
       <Section1 /> */}
+      <Navbar />  
       <Routes>
         {NavLi.map((elem)=>{
-return(
-  <Route path={elem.path} element={elem.element} />
-
-)
-        })}
+          return(
+            <Route path={elem.path} element={elem.element} />
+            
+            )
+          })}
       </Routes>
+      <Section3 />
     </>
   )
 }
