@@ -12,6 +12,63 @@ import { TermsPage } from "../Pages/TermsPage"
 //     {
 
 //     }, 
+export const footerLi = [
+    {
+        name: "Company",
+        id: 1,
+        style:"text-white font-bold text-xl"
+    }, {
+        name: "About Us",
+        style:"text-white text-base mt-3 text-gray-300",
+        id: 2,
+    }, {
+        name: "Product",
+        style:"text-white text-base mt-3 text-gray-300",
+        id: 2,
+    }, {
+        name: "Testimonial",
+        style:"text-white text-base mt-3 text-gray-300",
+        id: 2,
+    }
+]
+export const footerLiTwo = [
+    {
+        name: "Support",
+        id: 1,
+        style:"text-white font-bold text-xl"
+    }, {
+        name: "FAQ",
+        style:"text-white text-base mt-3 text-gray-300",
+        id: 2,
+    }, {
+        name: "Privacy Policy",
+        style:"text-white text-base mt-3 text-gray-300",
+        id: 2,
+    }, {
+        name: "Terms of Services",
+        style:"text-white text-base mt-3 text-gray-300",
+        id: 2,
+    }
+]
+export const footerLiThree = [
+    {
+        name: "Category",
+        id: 1,
+        style:"text-white font-bold text-xl"
+    }, {
+        name: "Super Cars",
+        style:"text-white text-base mt-3 text-gray-300",
+        id: 2,
+    }, {
+        name: "Sport Cars",
+        style:"text-white text-base mt-3 text-gray-300",
+        id: 2,
+    }, {
+        name: "More Cars",
+        style:"text-white text-base mt-3 text-gray-300",
+        id: 2,
+    }
+]
 export const NavLi = [
             {
                 path: "/home",

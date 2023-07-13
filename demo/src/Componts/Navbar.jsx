@@ -5,7 +5,7 @@ import { NavLi } from '../Utlis/Conntes'
 export default function Navbar() {
 
   return (
-    <div className="w-[1290px] mx-auto py-[10px] sm:px-[30px] px-[10px]">
+    <div className="w-[1290px] mx-auto py-[10px] sm:px-[30px] px-[10px] ">
       <div className='mt-[20px] flex items-center justify-between'>
         <img src={img} alt="" className='mr-[400px]' />
         <div className='flex items-center'>
