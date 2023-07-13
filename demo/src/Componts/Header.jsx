@@ -3,8 +3,8 @@ export default function Header() {
   return (
     <header>
       <div className="w-[1290px] mx-auto">
-        <div className="flex justify-between items-center">
-          <div className="w-[35%] ">
+        <div className="sm:flex grid flex-wrap justify-between items-center">
+          <div className="w-[35%]">
             <h1 className="text-white font-bold text-52px leading-15">
               The World's Best Luxury Car Deals
             </h1>
@@ -12,8 +12,8 @@ export default function Header() {
               HKinvestor can provide rentals of the most exclusive cars like Ferrari and Lamborghini.
             </p>
             <div className="flex items-center gap-15 mt-15">
-              <button className="w-114px h-48px bg-yellow-500 text-white font-bold hover:bg-transparent hover:text-yellow-500 border-2 border-yellow-500">Buy Now</button>
-              <button className="w-200px h-48px bg-transparent text-yellow-500 font-bold hover:bg-yellow-500 hover:text-white border-2 border-yellow-500">Video Introduction</button>
+              <button className="w-114px h-48px bg-yellow-500 text-white font-bold hover:bg-transparent hover:text-yellow-500 hover:duration-1000 duration-1000 border-2 border-yellow-500">Buy Now</button>
+              <button className="w-200px h-48px bg-transparent text-yellow-500 font-bold hover:shadow-lg hover:shadow-yellow-500 hover:duration-1000 duration-1000  border-2 border-yellow-500">Video Introduction</button>
             </div>
             <div className="flex items-center gap-15 mt-10">
               <div className="flex items-center gap-3">
@@ -31,8 +31,8 @@ export default function Header() {
             </div>
           </div>
 
-          <div className="w-[45%] bg-gray-900 h-500px">
-            <img src={headerRightImg} alt="" className="absolute w-[60%] right-31  bottom-10 " />
+          <div className="w-[45%] bg-gray-900 h-500px sm:order-last order-first ">
+            <img src={headerRightImg} alt="" className=" w-[100%] absolute sm:w-[55%] right-31  sm:bottom-10 " />
           </div>
 
         </div>
