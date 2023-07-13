@@ -7,11 +7,38 @@ import img4 from '../assets/Mask (2).png'
 export  const NavbarList =[
     {
 
-    }
+import { BookNowPage } from "../Pages/BookNowPage"
+import { CarsPage } from "../Pages/CarsPage"
+import { HomePage } from "../Pages/HomePage"
+import { TermsPage } from "../Pages/TermsPage"
+
+export const NavLi=[
+    {
+        path:"/home",
+        name:"Home",
+        element:<HomePage/>,
+        id:1
+    },
+    {
+        path:"/cars",
+        name:"Cars",
+        element:<CarsPage/>,
+        id:2
+    },
+    {
+        path:"/books",
+        name:"Book now",
+        element:<BookNowPage/>,
+        id:3
+    },
+    {
+        path:"/terms",
+        name:"Terms and Conditions",
+        element:<TermsPage/>,
+        id:4
+    },
 ]
 
-
-// eslint-disable-next-line react-refresh/only-export-components
 export const sectionimages = [
     {
         img: img1,
