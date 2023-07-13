@@ -1,0 +1,7 @@
+.text_name{
+    transform: scale(0);
+}
+
+.father:hover .text_name{
+    transform: scale(1);
+}

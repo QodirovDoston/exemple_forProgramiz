@@ -1,5 +1,4 @@
 import { sectionimages } from '../Utlis/Conntes'
-import img from '../assets/Mask.png'    
 import './section.css'
 
 const Section1 = () => {
@@ -10,12 +9,12 @@ const Section1 = () => {
             </div>
             <div className='flex flex-wrap justify-beetwen gap-32px'>
                 {
-                    sectionimages.map(({ hover_top_name, hover_bottom_name }) => {
+                    sectionimages.map(({img, hover_top_name, hover_bottom_name }) => {
                         return (
                             <>
-                                <div className='father w-[584px] relative'>
-                                    <img src={img} alt="" />
-                                    <div className='absolute w-[548px] top-0 duration-1500'>
+                                <div className='father w-[584px] relative duration-500'>
+                                    <img src={img} alt="" className='img_hover'/>
+                                    <div className='text_name absolute w-[548px] top-0 duration-500'>
                                         <h1 className='text-white text-left pl-[48px] pt-[48px] text-4xl'>{hover_top_name}</h1>
                                         <h3 className='text-white text-right pr-[70px] pt-[360px] text-2xl'>{hover_bottom_name}</h3>
                                     </div>
