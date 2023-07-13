@@ -2,6 +2,7 @@ import { React } from 'react'
 import { Link } from 'react-router-dom'
 import img from '../assets/Group 1.png'
 import { NavLi } from '../Utlis/Conntes'
+import SelectTransla from './ResobleTranslate/TranslateSection'
 export default function Navbar() {
 
   return (
@@ -18,6 +19,7 @@ export default function Navbar() {
         })}
           </ul>
           <button className='text-white ml-[72px] border-0 bg-[#EE8313] py-[12px] px-[24px] border-1 border-solid border-[#EE8313] duration-1500 hover:duration-1500 hover:text-[#EE8313] hover:bg-transparent'>Manage Booking</button>
+      <SelectTransla/>
         </div>
       </div>
     </div>

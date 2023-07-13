@@ -1,5 +1,6 @@
 
 import { Route, Routes } from 'react-router-dom'
+import Footer from './Componts/Footer'
 
 import Navbar from './Componts/Navbar'
 
@@ -18,23 +19,8 @@ function App() {
           )
         })}
 
-
-     {/* <Navbar />
-      <Header />
-      <Section1 /> */}
-      {/* <Header />
-      <Section1 /> */}
-      <Navbar />  
-      <Routes>
-        {NavLi.map((elem)=>{
-          return(
-            <Route path={elem.path} element={elem.element} />
-            
-            )
-          })}
-
       </Routes>
-      <Section3 />
+   <Footer/>
     </>
   )
 }

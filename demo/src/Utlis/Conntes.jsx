@@ -6,14 +6,20 @@ import { BookNowPage }  from "../Pages/BookNowPage"
 import { CarsPage } from "../Pages/CarsPage"
 import { HomePage } from "../Pages/HomePage"
 import { TermsPage } from "../Pages/TermsPage"
-import { BookNowPage } from "../Pages/BookNowPage"
-import { CarsPage } from "../Pages/CarsPage"
-import { HomePage } from "../Pages/HomePage"
-import { TermsPage } from "../Pages/TermsPage"
 
-export  const NavbarList =[
-    
-
+export const Transale = [
+    {
+        text: 'text.translate2',
+        value: 'uz'
+    },
+    {
+        text: 'text.translate1',
+        value: 'eng'
+    },
+    {
+        text: 'text.translate3',
+        value: 'rus'
+    }
 ]
 
 export const sectionimages = [
@@ -40,10 +46,6 @@ export const sectionimages = [
 ]
 
 
-// export const NavbarList = [
-//     {
-
-//     }, 
 export const footerLi = [
     {
         name: "Company",
@@ -128,25 +130,25 @@ export const NavLi = [
             },
         ]
 
-export const sectionimages = [
-            {
-                img: img1,
-                hover_top_name: "Supercars",
-                hover_bottom_name: "Discover🔜",
-            },
-            {
-                img: img2,
-                hover_top_name: "Sportcars",
-                hover_bottom_name: "Discover🔜",
-            },
-            {
-                img: img4,
-                hover_top_name: "SUV",
-                hover_bottom_name: "Discover🔜",
-            },
-            {
-                img: img3,
-                hover_top_name: "Supersuv",
-                hover_bottom_name: "Discover🔜",
-            },
-        ]
+// export const sectionimages = [
+//             {
+//                 img: img1,
+//                 hover_top_name: "Supercars",
+//                 hover_bottom_name: "Discover🔜",
+//             },
+//             {
+//                 img: img2,
+//                 hover_top_name: "Sportcars",
+//                 hover_bottom_name: "Discover🔜",
+//             },
+//             {
+//                 img: img4,
+//                 hover_top_name: "SUV",
+//                 hover_bottom_name: "Discover🔜",
+//             },
+//             {
+//                 img: img3,
+//                 hover_top_name: "Supersuv",
+//                 hover_bottom_name: "Discover🔜",
+//             },
+//         ]
