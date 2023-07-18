@@ -11,10 +11,10 @@ export default function Navbar() {
         <img src={img} alt="" className='mr-[400px]' />
         <div className='flex items-center'>
           <ul className='flex gap-[40px]'>
-        {NavLi.map(({name,path})=>{
+        {NavLi.map(({name,path,id})=>{
          return(
           
-         <Link to={path}><li className='text-white'>{name}</li></Link> 
+         <Link key={id} to={path}><li className='text-white'>{name}</li></Link> 
          )
         })}
           </ul>

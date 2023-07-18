@@ -1,3 +1,4 @@
+import React from 'react'
 import { sectionimages } from '../Utlis/Conntes'
 import './section.css'
 
@@ -9,9 +10,9 @@ const Section1 = () => {
             </div>
             <div className='flex flex-wrap justify-beetwen gap-32px'>
                 {
-                    sectionimages.map(({img, hover_top_name, hover_bottom_name }) => {
+                    sectionimages.map(({img, hover_top_name, hover_bottom_name },index) => {
                         return (
-                            <>
+                            <React.Fragment key={index}>
                                 <div className='father w-[584px] relative duration-500'>
                                     <img src={img} alt="" className='img_hover'/>
                                     <div className='text_name absolute w-[548px] top-0 duration-500'>
@@ -20,7 +21,7 @@ const Section1 = () => {
                                     </div>
                                 </div>
 
-                            </>
+                            </React.Fragment>
                         )
                     })
                 }

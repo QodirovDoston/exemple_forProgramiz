@@ -6,6 +6,7 @@ import { BookNowPage }  from "../Pages/BookNowPage"
 import { CarsPage } from "../Pages/CarsPage"
 import { HomePage } from "../Pages/HomePage"
 import { TermsPage } from "../Pages/TermsPage"
+import { four, one, three, two } from '../assets'
 
 export const Transale = [
     {
@@ -26,22 +27,22 @@ export const sectionimages = [
     {
         img: img1,
         hover_top_name : "Supercars",
-        hover_bottom_name: "Discover🔜",
+        hover_bottom_name: "Discover >",
     },
     {
         img: img2,
         hover_top_name : "Sportcars",
-        hover_bottom_name: "Discover🔜",
+        hover_bottom_name: "Discover >",
     },
     {
         img: img4,
         hover_top_name : "SUV",
-        hover_bottom_name: "Discover🔜",
+        hover_bottom_name: "Discover >",
     },
     {
         img: img3,
         hover_top_name : "Supersuv",
-        hover_bottom_name: "Discover🔜",
+        hover_bottom_name: "Discover >",
     },
 ]
 
@@ -127,28 +128,50 @@ export const NavLi = [
                 name: "Terms and Conditions",
                 element: <TermsPage />,
                 id: 4
-            },
+            }
         ]
 
-// export const sectionimages = [
-//             {
-//                 img: img1,
-//                 hover_top_name: "Supercars",
-//                 hover_bottom_name: "Discover🔜",
-//             },
-//             {
-//                 img: img2,
-//                 hover_top_name: "Sportcars",
-//                 hover_bottom_name: "Discover🔜",
-//             },
-//             {
-//                 img: img4,
-//                 hover_top_name: "SUV",
-//                 hover_bottom_name: "Discover🔜",
-//             },
-//             {
-//                 img: img3,
-//                 hover_top_name: "Supersuv",
-//                 hover_bottom_name: "Discover🔜",
-//             },
-//         ]
+export const SecthreeImgs = [
+            {
+                title:"London",
+                paragraf:"Car hire in 75 pick-up locations",
+                img: one,
+                img_text:"From $ 669,00 per day",
+                search_text:"Search rental cars in London"
+            },
+            {
+                title:"Madrid",
+                paragraf:"Car hire in 75 pick-up locations",
+                img: two,
+                img_text:"From $ 799,00 per day",
+                search_text:"Search rental cars in London"
+            },
+            {
+                title:"Paris",
+                paragraf:"Car hire in 75 pick-up locations",
+                img: three,
+                img_text:"From $ 899,00 per day",
+                search_text:"Search rental cars in London"
+            },
+            {
+                title:"Dubai",
+                paragraf:"Car hire in 75 pick-up locations",
+                img: four,
+                img_text:"From $ 669,00 per day",
+                search_text:"Search rental cars in London"
+            },
+            {
+                title:"Roma",
+                paragraf:"Car hire in 75 pick-up locations",
+                img: one,
+                img_text:"From $ 799,00 per day",
+                search_text:"Search rental cars in London"
+            },
+            {
+                title:"Jakarta",
+                paragraf:"Car hire in 75 pick-up locations",
+                img: one,
+                img_text:"From $ 889,00 per day",
+                search_text:"Search rental cars in London"
+            },
+        ]

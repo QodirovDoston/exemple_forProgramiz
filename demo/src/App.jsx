@@ -13,9 +13,9 @@ function App() {
 
     <Navbar />
       <Routes>
-        {NavLi.map((elem) => {
+        {NavLi.map((elem,index) => {
           return (
-            <Route path={elem.path} element={elem.element} />
+            <Route key={index} path={elem.path} element={elem.element} />
           )
         })}
 
