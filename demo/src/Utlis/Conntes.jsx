@@ -10,12 +10,12 @@ import { four, one, three, two } from '../assets'
 
 export const Transale = [
     {
-        text: 'text.translate2',
-        value: 'uz'
-    },
-    {
         text: 'text.translate1',
         value: 'eng'
+    },
+    {
+        text: 'text.translate2',
+        value: 'uz'
     },
     {
         text: 'text.translate3',

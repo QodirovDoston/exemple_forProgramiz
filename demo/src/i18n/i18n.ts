@@ -6,14 +6,14 @@ import UZB from "./locales/uz/translation.json"
 import RUS from "./locales/ru/translation.json"
 
 const resources = {
-  uz: {
-    translation: UZB
-  },
   eng: {
     translation: ENG
   },
   rus:{
     translation: RUS
+  },
+  uz: {
+    translation: UZB
   }
 };
 
@@ -21,7 +21,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: "uz", 
+    lng: "eng", 
     interpolation: {
       escapeValue: false
     }
