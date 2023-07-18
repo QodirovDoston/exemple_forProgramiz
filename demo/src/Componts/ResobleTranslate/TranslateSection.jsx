@@ -11,7 +11,9 @@ export default function SelectTransla() {
     i18next.changeLanguage(language.target.value);
   }
   return (
-    <select onChange={changeLanguage} className='py-2 text-[#000000] text-[19px] font-light bg-[#ffffff] border-none' name="Translate" id="1">
+    <div className="w-50px rounded-3xl truncate fixed left-7 ">
+
+    <select onChange={changeLanguage} className='bg-yellow-500 py-2 text-[#000000] text-[19px] font-light bg-[#ffffff] border-none' name="Translate" id="1">
       {Transale.map((option, index) => {
         return (
           <React.Fragment key={index}>
@@ -23,5 +25,6 @@ export default function SelectTransla() {
 
       
     </select>
+    </div>
   )
 }

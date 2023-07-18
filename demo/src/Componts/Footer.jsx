@@ -1,8 +1,11 @@
 import { footerLi, footerLiThree, footerLiTwo } from "../Utlis/Conntes"
 import logo from "../assets/logo/logo.png"
 import theEnd from "../assets/img/theEnd.png"
+import { t } from "i18next"
+import { useTranslation } from "react-i18next"
 
 export default function Footer() {
+  const {t}= useTranslation()
   return (
     <footer className="bg-[#1F1905]">
     <div className="w-1200px mx-auto flex items-center justify-between">
@@ -12,7 +15,7 @@ export default function Footer() {
           <h4 className="text-white">HKinvision</h4>
         </div>
         <p className="text-white w-200px mt-12">
-          The World's Best Luxury Car’s Dealing Platform
+         {t("text.footer_p")}
         </p>
       </div>
       <div className="w-700px flex items-center justify-between mt-18 mb-5">
@@ -42,7 +45,7 @@ export default function Footer() {
         <img src={theEnd} alt="" className='w-100px'/>
       </div>
     </div>
-      <div className="bg-[#EE8313] text-center p-5"><h4 className="text-white font-bold text-lg">©2022 HKInvestor. All right reserved</h4></div>
+      <div className="bg-[#EE8313] text-center p-5"><h4 className="text-white font-bold text-lg">{t("text.footerEnd")}</h4></div>
   </footer>
   )
 }

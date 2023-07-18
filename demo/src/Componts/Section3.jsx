@@ -1,11 +1,15 @@
-// import imgsecthree from "../assets/img/Mask.svg"
+import { t } from "i18next"
+import { useTranslation } from "react-i18next"
 import imgagain from "../assets/img/Front Car.svg"
 import { SecthreeImgs } from "../Utlis/Conntes"
 const Section3 = () => {
+  const { t } = useTranslation()
   return (
     <div className="w-[1200px] mx-auto py-[60px]">
-         
-            <h1 className="text-white text-[52px] text-center font-bold">Popular Destination <br /> for Car Rentals</h1>
+         <center>
+
+            <h1 className="text-white text-[52px] leading-18 text-center font-bold">{t("text.secthreetitle")}</h1>
+         </center>
             <div className="flex gap-5 items-center flex-wrap justify-center mt-15">
               {SecthreeImgs.map(({title,paragraf,img,img_text,search_text},index)=>{
                 return(

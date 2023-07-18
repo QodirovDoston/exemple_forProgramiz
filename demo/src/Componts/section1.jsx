@@ -1,12 +1,15 @@
+import { t } from 'i18next'
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import { sectionimages } from '../Utlis/Conntes'
 import './section.css'
 
 const Section1 = () => {
+    const { t } = useTranslation()
     return (
         <div className='w-[1200px] mx-auto'>
             <div>
-                <p className="text-white text-center text-5xl mb-[40px] mt-[60px] font-bold">Rent a Luxury Car</p>
+                <p className="text-white text-center text-5xl mb-[40px] mt-[60px] font-bold">{t("text.SectionTitle")}</p>
             </div>
             <div className='flex flex-wrap justify-beetwen gap-32px'>
                 {

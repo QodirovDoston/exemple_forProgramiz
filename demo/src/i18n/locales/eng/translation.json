@@ -3,15 +3,27 @@
         "translate1": "Eng",
         "translate2": "Uzb",
         "translate3": "Rus",
-        "Ullis1":"Home",
-        "Ullis2":"Courses",
-        "Ullis3":"Page",
-        "Ullis4":"Blog",
-        "Ullis5":"Contact",
-        "Heaader1":"Compare prices and book books in nearby stores!",
-        "Heaader2btn":"Come in",
+
+
         "Heaader":"The World`s Best Luxury Car Deals",
-        "HeaaderP":"HKinvestor can provide rentals of the most exclusive cars like Ferrari and Lamborghini."
+        "HeaaderP":"HKinvestor can provide rentals of the most exclusive cars like Ferrari and Lamborghini.",
+        "HeaderBTnone":"Buy Now",
+        "HeaderBTntwo":"Video Introduction",
+        "Headernumbernear":"Luxury Cars",
+        "Headernumberneartwo":"Best Deal Car",
+        "SectionTitle":"Rent a Luxury Car",
+        "secfourtitle":"Location",
+        "sectwotitle":"Our Other Services",
+        "secthreetitle":"Popular Destination for Car Rentals",
+        "Navbtn":"Manage Booking",
+        "footer_p":"The World's Best Luxury Car’s Dealing Platform",
+        "footerEnd":"©2022 HKInvestor. All right reserved" ,
+        "SecCardOneTitle":"Private Charter",
+        "SecCardOnePragraf":"Pinjam Mobil Rent also offers you discreet and speedy, transfers via helicopter or private planes.",
+        "SecCardTwoTitle":"Chauffer Driven Car Rentals",
+        "SecCardTwoPragraf":"Our chauffers are professional drivers who provide a discreet, reliable punctual and professional service.",
+        "SecCardThreeTitle":"Wedding Car Rentals",
+        "SecCardThreePragraf":"If you want to celebrate your wedding in style and elegance, choose one car from our luxury collection."
 
     }
 }
