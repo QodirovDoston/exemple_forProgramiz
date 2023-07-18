@@ -18,10 +18,10 @@ const Section3 = () => {
                 <img src={img} alt="" className="w-[100%]" />
               <div className="p-5">
               <h4 className="text-white font-bold text-xl pb-1">
-              {title}
+              {t(title)}
                 </h4>
                 <p className="text-gray-400 text-base pb-3">
-                {paragraf}
+                {t(paragraf)}
                 </p>
                 <div className="flex items-center gap-3 pb-5">
                   <img src={imgagain} alt="" />

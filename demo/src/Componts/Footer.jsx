@@ -20,25 +20,25 @@ export default function Footer() {
       </div>
       <div className="w-full sm:w-700px flex items-center justify-between mt-18 mb-5">
         <ul className="list-footer ">
-          {footerLi.map((elem) => {
+          {footerLi.map((elem,index) => {
             return (
-              <li key={elem.id} className={elem.style} > {elem.name} </li>
+              <li key={index} className={elem.style} > {elem.name} </li>
             )
           })}
         </ul>
         <ul className="list-footer hidden sm:block">
-          {footerLiTwo.map((elem) => {
+          {footerLiTwo.map((elem,index) => {
 
             return (
-              <li key={elem.id} className={elem.style} > {elem.name} </li>
+              <li key={index} className={elem.style} > {elem.name} </li>
             )
           })}
         </ul>
         <ul className="list-footer  hidden sm:block">
-          {footerLiThree.map((elem) => {
+          {footerLiThree.map((elem,index) => {
 
             return (
-              <li key={elem.id} className={elem.style} > {elem.name} </li>
+              <li key={index} className={elem.style} > {elem.name} </li>
             )
           })}
         </ul>

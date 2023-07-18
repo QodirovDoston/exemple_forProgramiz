@@ -11,14 +11,14 @@ const Section1 = () => {
             <div>
                 <p className="text-white text-center text-2xl sm:text-5xl mb-[40px] mt-[60px] font-bold">{t("text.SectionTitle")}</p>
             </div>
-            <div className='flex flex-wrap justify-beetwen gap-32px'>
+            <div className='flex flex-wrap justify-beetwen gap-32px w-full'>
                 {
                     sectionimages.map(({img, hover_top_name, hover_bottom_name },index) => {
                         return (
-                            <React.Fragment key={index}>
-                                <div className='father w-[584px] relative duration-500'>
+                            <React.Fragment key={index} >
+                                <div className='father sm:w-[584px] relative duration-500'>
                                     <img src={img} alt="" className='img_hover'/>
-                                    <div className='text_name absolute w-[548px] top-0 duration-500'>
+                                    <div className='text_name absolute sm:w-[548px] top-0 duration-500'>
                                         <h1 className='text-white text-left pl-[48px] pt-[48px] text-4xl'>{hover_top_name}</h1>
                                         <h3 className='text-white text-right pr-[70px] pt-[360px] text-2xl'>{hover_bottom_name}</h3>
                                     </div>

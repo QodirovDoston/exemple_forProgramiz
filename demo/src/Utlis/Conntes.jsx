@@ -133,8 +133,8 @@ export const NavLi = [
 
 export const SecthreeImgs = [
             {
-                title:"London",
-                paragraf:"Car hire in 75 pick-up locations",
+                title:"text.CardTitle",
+                paragraf:"text.CardParagraf",
                 img: one,
                 img_text:"From $ 669,00 per day",
                 search_text:"Search rental cars in London"
