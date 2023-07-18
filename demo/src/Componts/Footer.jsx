@@ -8,7 +8,7 @@ export default function Footer() {
   const {t}= useTranslation()
   return (
     <footer className="bg-[#1F1905]">
-    <div className="w-1200px mx-auto flex items-center justify-between">
+    <div className="max-w-screen-xl mx-auto flex items-center justify-between">
       <div className="footer-left">
         <div className="flex items-center gap-5 mb-8">
           <img src={logo} alt=""  />
@@ -18,15 +18,15 @@ export default function Footer() {
          {t("text.footer_p")}
         </p>
       </div>
-      <div className="w-700px flex items-center justify-between mt-18 mb-5">
-        <ul className="list-footer">
+      <div className="w-full sm:w-700px flex items-center justify-between mt-18 mb-5">
+        <ul className="list-footer ">
           {footerLi.map((elem) => {
             return (
               <li key={elem.id} className={elem.style} > {elem.name} </li>
             )
           })}
         </ul>
-        <ul className="list-footer">
+        <ul className="list-footer hidden sm:block">
           {footerLiTwo.map((elem) => {
 
             return (
@@ -34,7 +34,7 @@ export default function Footer() {
             )
           })}
         </ul>
-        <ul className="list-footer">
+        <ul className="list-footer  hidden sm:block">
           {footerLiThree.map((elem) => {
 
             return (
@@ -42,10 +42,10 @@ export default function Footer() {
             )
           })}
         </ul>
-        <img src={theEnd} alt="" className='w-100px'/>
+        <img src={theEnd} alt="" className='w-100px hidden sm:block'/>
       </div>
     </div>
-      <div className="bg-[#EE8313] text-center p-5"><h4 className="text-white font-bold text-lg">{t("text.footerEnd")}</h4></div>
+      <div className="bg-[#EE8313] text-center p-5"><h4 className="text-white font-bold text-11px sm:text-lg">{t("text.footerEnd")}</h4></div>
   </footer>
   )
 }

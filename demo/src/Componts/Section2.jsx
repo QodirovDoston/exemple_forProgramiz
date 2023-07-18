@@ -8,10 +8,10 @@ import { useTranslation } from 'react-i18next'
 export default function Section2() {
     const { t } = useTranslation()
   return (
-    <div className='w-[1200px] mx-auto '>
+    <div className='max-w-screen-xl mx-auto '>
         <div className="w-full p-15">
-            <h2 className="text-white text-5xl font-bold">{t("text.sectwotitle")}</h2>
-            <div className="flex items-center justify-between mt-10">
+            <h2 className="text-white text-2xl sm:text-5xl font-bold">{t("text.sectwotitle")}</h2>
+            <div className="flex items-center justify-between mt-10 flex-wrap gap-10">
                 <div className="w-345px">
                     <img src={oneImg} alt="" className="w-100%" />
                     <h4 className="text-white font-bold text-xl mt-5">{t("text.SecCardOneTitle")}</h4>
