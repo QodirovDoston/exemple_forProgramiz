@@ -49,26 +49,26 @@ export const sectionimages = [
 
 export const footerLi = [
     {
-        name: "Company",
+        name: "text.footerCompany",
         id: 1,
         style:"text-white font-bold text-xl"
     }, {
-        name: "About Us",
+        name: "text.aboutUs",
         style:"text-white text-base mt-3 text-gray-300",
         id: 2,
     }, {
-        name: "Product",
+        name: "text.Product",
         style:"text-white text-base mt-3 text-gray-300",
         id: 2,
     }, {
-        name: "Testimonial",
+        name: "text.Testimonial",
         style:"text-white text-base mt-3 text-gray-300",
         id: 2,
     }
 ]
 export const footerLiTwo = [
     {
-        name: "Support",
+        name: "text.Support",
         id: 1,
         style:"text-white font-bold text-xl"
     }, {
@@ -76,30 +76,30 @@ export const footerLiTwo = [
         style:"text-white text-base mt-3 text-gray-300",
         id: 2,
     }, {
-        name: "Privacy Policy",
+        name: "text.Policy",
         style:"text-white text-base mt-3 text-gray-300",
         id: 2,
     }, {
-        name: "Terms of Services",
+        name: "text.footerterms",
         style:"text-white text-base mt-3 text-gray-300",
         id: 2,
     }
 ]
 export const footerLiThree = [
     {
-        name: "Category",
+        name: "text.Category",
         id: 1,
         style:"text-white font-bold text-xl"
     }, {
-        name: "Super Cars",
+        name: "text.supercars",
         style:"text-white text-base mt-3 text-gray-300",
         id: 2,
     }, {
-        name: "Sport Cars",
+        name: "text.SportCars",
         style:"text-white text-base mt-3 text-gray-300",
         id: 2,
     }, {
-        name: "More Cars",
+        name: "text.morecars",
         style:"text-white text-base mt-3 text-gray-300",
         id: 2,
     }
@@ -107,25 +107,25 @@ export const footerLiThree = [
 export const NavLi = [
             {
                 path: "/home",
-                name: "Home",
+                name: "text.navhome",
                 element: <HomePage />,
                 id: 1
             },
             {
                 path: "/cars",
-                name: "Cars",
+                name: "text.navCars",
                 element: <CarsPage />,
                 id: 2
             },
             {
                 path: "/books",
-                name: "Book now",
+                name: "text.bookNow",
                 element: <BookNowPage />,
                 id: 3
             },
             {
                 path: "/terms",
-                name: "Terms and Conditions",
+                name: "text.navCondition",
                 element: <TermsPage />,
                 id: 4
             }
@@ -136,42 +136,42 @@ export const SecthreeImgs = [
                 title:"text.CardTitle",
                 paragraf:"text.CardParagraf",
                 img: one,
-                img_text:"From $ 669,00 per day",
-                search_text:"Search rental cars in London"
+                img_text:"text.sectionNearicon",
+                search_text:"text.secThreeSearch"
             },
             {
-                title:"Madrid",
-                paragraf:"Car hire in 75 pick-up locations",
+                title:"text.sectionThreetwotitle",
+                paragraf:"text.CardParagraf",
                 img: two,
-                img_text:"From $ 799,00 per day",
-                search_text:"Search rental cars in London"
+                img_text:"text.sectiontwoCardPrice",
+                search_text:"text.secThreeSearch"
             },
             {
-                title:"Paris",
-                paragraf:"Car hire in 75 pick-up locations",
+                title:"text.cardParis",
+                paragraf:"text.CardParagraf",
                 img: three,
-                img_text:"From $ 899,00 per day",
-                search_text:"Search rental cars in London"
+                img_text:"text.sectionthreeCardPrice",
+                search_text:"text.secThreeSearch"
             },
             {
-                title:"Dubai",
-                paragraf:"Car hire in 75 pick-up locations",
+                title:"text.cardDubai",
+                paragraf:"text.CardParagraf",
                 img: four,
-                img_text:"From $ 669,00 per day",
-                search_text:"Search rental cars in London"
+                img_text:"text.sectionNearicon",
+                search_text:"text.secThreeSearch"
             },
             {
-                title:"Roma",
-                paragraf:"Car hire in 75 pick-up locations",
+                title:"text.cardRoma",
+                paragraf:"text.CardParagraf",
                 img: one,
-                img_text:"From $ 799,00 per day",
-                search_text:"Search rental cars in London"
+                img_text:"text.sectiontwoCardPrice",
+                search_text:"text.secThreeSearch"
             },
             {
-                title:"Jakarta",
-                paragraf:"Car hire in 75 pick-up locations",
+                title:"text.cardJakarta",
+                paragraf:"text.CardParagraf",
                 img: one,
-                img_text:"From $ 889,00 per day",
-                search_text:"Search rental cars in London"
+                img_text:"text.sectionthreeCardPrice",
+                search_text:"text.secThreeSearch"
             },
         ]

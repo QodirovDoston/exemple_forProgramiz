@@ -16,7 +16,7 @@ export default function Navbar() {
         {NavLi.map(({name,path,id})=>{
          return(
           
-         <Link key={id} to={path}><li className='text-white'>{name}</li></Link> 
+         <Link key={id} to={path}><li className='text-white'>{t(name)}</li></Link> 
          )
         })}
           </ul>

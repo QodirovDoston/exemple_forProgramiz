@@ -22,7 +22,7 @@ export default function Footer() {
         <ul className="list-footer ">
           {footerLi.map((elem,index) => {
             return (
-              <li key={index} className={elem.style} > {elem.name} </li>
+              <li key={index} className={elem.style} > {t(elem.name)} </li>
             )
           })}
         </ul>
@@ -30,7 +30,7 @@ export default function Footer() {
           {footerLiTwo.map((elem,index) => {
 
             return (
-              <li key={index} className={elem.style} > {elem.name} </li>
+              <li key={index} className={elem.style} > {t(elem.name)} </li>
             )
           })}
         </ul>
@@ -38,7 +38,7 @@ export default function Footer() {
           {footerLiThree.map((elem,index) => {
 
             return (
-              <li key={index} className={elem.style} > {elem.name} </li>
+              <li key={index} className={elem.style} > {t(elem.name)} </li>
             )
           })}
         </ul>

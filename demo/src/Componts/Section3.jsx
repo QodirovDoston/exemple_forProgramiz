@@ -25,10 +25,10 @@ const Section3 = () => {
                 </p>
                 <div className="flex items-center gap-3 pb-5">
                   <img src={imgagain} alt="" />
-                  <h6 className="text-white font-bold">{img_text}</h6>
+                  <h6 className="text-white font-bold">{t(img_text)}</h6>
                 </div>
                 <h6 className="text-yellow-600">
-                {search_text}
+                {t(search_text)}
                 </h6>
               </div>
               </div>
