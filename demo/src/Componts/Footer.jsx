@@ -9,8 +9,8 @@ export default function Footer() {
   return (
     <footer className="bg-[#1F1905]">
     <div className="max-w-screen-xl mx-auto flex items-center justify-between">
-      <div className="footer-left">
-        <div className="flex items-center gap-5 mb-8">
+      <div className="footer-left sm:ml-0 ml-5 ">
+        <div className="flex  items-center gap-5 mb-8">
           <img src={logo} alt=""  />
           <h4 className="text-white">HKinvision</h4>
         </div>
@@ -18,8 +18,8 @@ export default function Footer() {
          {t("text.footer_p")}
         </p>
       </div>
-      <div className="w-full sm:w-700px flex items-center justify-between mt-18 mb-5">
-        <ul className="list-footer ">
+      <div className="w-full sm:w-700px flex items-center justify-between mt-8 sm:mt-18 mb-5">
+        <ul className="list-footer sm:ml-0 ml-9 ">
           {footerLi.map((elem,index) => {
             return (
               <li key={index} className={elem.style} > {t(elem.name)} </li>
