@@ -17,7 +17,7 @@ export default function Header() {
               <button className="w-100px sm:w-114px text-10px sm:text-base h-48px bg-yellow-500 text-white font-bold hover:bg-transparent hover:text-yellow-500 hover:duration-1000 duration-1000 border-2 border-yellow-500">{t("text.HeaderBTnone")}</button>
               <button className="w-130px sm:w-200px text-10px sm:text-base h-48px bg-transparent text-yellow-500 font-bold hover:shadow-lg hover:shadow-yellow-500 hover:duration-1000 duration-1000  border-2 border-yellow-500">{t("text.HeaderBTntwo")}</button>
             </div>
-            <div className="flex items-center gap-15 mt-10 flex-wrap sm:block hidden sm:flex-nowrap ">
+            <div className="flex items-center gap-15 mt-10 flex-wrap sm:flex hidden sm:flex-nowrap ">
               <div className="flex items-center gap-3">
                 <h2 className="text-white font-bold text-40px">500+</h2>
                 <h3 className="text-white text-base mt-3">
