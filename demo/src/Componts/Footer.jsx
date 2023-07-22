@@ -45,7 +45,7 @@ export default function Footer() {
         <img src={theEnd} alt="" className='w-100px hidden sm:block'/>
       </div>
     </div>
-      <div className="bg-[#EE8313] text-center p-5"><h4 className="text-white font-bold text-11px sm:text-lg">{t("text.footerEnd")}</h4></div>
+      <div className="bg-[#EE8313] text-center p-5 sm:mt-0 mt-5"><h4 className="text-white font-bold text-11px sm:text-lg">{t("text.footerEnd")}</h4></div>
   </footer>
   )
 }
